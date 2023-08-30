@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>My Website</title>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="path/to/your/logo.png" alt="Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Our Profile</a></li>
+        <li><a href="#">Achievement</a></li>
+        <li><a href="#">Message Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="sidebar">
+    <h1 class="greeting">Hi <span id="namePlaceholder">Nama</span>, Welcome To Website</h1>
+  </section>
+
+  <section class="main-content">
+    <p>Ini adalah website latihan pertama</p>
+    <div class="banner">
+      <img src="path/to/banner.png" alt="Banner">
+    </div>
+    <div class="about">
+      <h2>About Your School</h2>
+      <p>Description of your school...</p>
+    </div>
+    <div class="vision-mission">
+      <h2>Vision & Mission</h2>
+      <p>Your school's vision and mission...</p>
+    </div>
+  </section>
+
+  <hr>
+
+  <section class="our-facilitation">
+    <h2>Our Facilitation</h2>
+    <div class="profile-images">
+      <img src="path/to/teacher-image.png" alt="Profesional Teacher">
+      <img src="path/to/sport-field-image.png" alt="Sport Field">
+      <img src="path/to/class-room-image.png" alt="Class Room">
+    </div>
+  </section>
+
+  <hr>
+
+  <section class="message-us">
+    <h2>Message Us</h2>
+    <form id="messageForm">
+      <input type="text" id="name" placeholder="Name" required>
+      <input type="date" id="birthdate" required>
+      <select id="gender" required>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
+      <textarea id="message" placeholder="Message" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+    <div class="submitted-message">
+      <h3>Submitted Message</h3>
+      <table id="submittedTable">
+        <!-- Filled dynamically using JavaScript -->
+      </table>
+    </div>
+  </section>
+
+  <hr>
+
+  <footer>
+    <p class="footer-text">Created By Sinarino</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
